@@ -47,27 +47,27 @@ const MyHeader = () => {
                 <nav class="header_nav">
                     <ul class="nav_ul">
                         <li class="nav_li">
-                            <a class="nav_orange" href="">
+                            <a class="nav_orange" href=" ">
                                 중고거래
                             </a>
                         </li>
                         <li class="nav_li">
-                            <a class="nav_black" href="">
+                            <a class="nav_black" href=" ">
                                 동네가게
                             </a>
                         </li>
                         <li class="nav_li">
-                            <a class="nav_black" href="">
+                            <a class="nav_black" href=" ">
                                 알바
                             </a>
                         </li>
                         <li class="nav_li">
-                            <a class="nav_black" href="">
+                            <a class="nav_black" href=" ">
                                 부동산 직거래
                             </a>
                         </li>
                         <li class="nav_li">
-                            <a class="nav_black" href="">
+                            <a class="nav_black" href=" ">
                                 중고차 직거래
                             </a>
                         </li>

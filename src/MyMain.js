@@ -1,3 +1,8 @@
+import main1 from "./img/main1.png";
+import main2 from "./img/main2.png";
+import main3 from "./img/main3.png";
+import main4 from "./img/main4.png";
+
 const MyMain = () => {
     return (
         <main>
@@ -18,8 +23,8 @@ const MyMain = () => {
                         <div class="home-main-image">
                             <img
                                 class="home-main-image"
-                                src="img/main1.png"
-                                alt=""
+                                src={main1}
+                                alt="main image1"
                             />
                         </div>
                     </div>
@@ -30,8 +35,8 @@ const MyMain = () => {
                     <div class="home-main-image-2">
                         <img
                             class="home-main-image-2"
-                            src="img/main2.png"
-                            alt=""
+                            src={main2}
+                            alt="main image2"
                         />
                     </div>
                     <div class="home-main-desc">
@@ -100,8 +105,8 @@ const MyMain = () => {
                     <div class="home-main-image-2">
                         <img
                             class="home-main-image-2"
-                            src="img/main3.png"
-                            alt=""
+                            src={main3}
+                            alt="main image3"
                         />
                     </div>
                 </div>
@@ -111,8 +116,8 @@ const MyMain = () => {
                     <div class="home-main-image-2">
                         <img
                             class="home-main-image-2"
-                            src="img/main4.png"
-                            alt=""
+                            src={main4}
+                            alt="main image4"
                         />
                     </div>
                     <div class="home-main-desc">
@@ -361,12 +366,12 @@ const MyMain = () => {
                         </article>
                     </div>
                     <div class="text-center">
-                        <a href="">인기매물 더 보기</a>
+                        <a href=" ">인기매물 더 보기</a>
                     </div>
                 </div>
             </section>
 
-            <section>
+            {/* <section>
                 <h3></h3>
                 <ul>
                     <li></li>
@@ -380,7 +385,7 @@ const MyMain = () => {
                     <li></li>
                     <li></li>
                 </ul>
-            </section>
+            </section> */}
         </main>
     );
 };
