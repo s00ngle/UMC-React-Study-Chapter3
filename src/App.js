@@ -3,6 +3,7 @@ import "./App.css";
 import MyHeader from "./MyHeader";
 import MyMain from "./MyMain";
 import MyFooter from "./Myfooter";
+import Counter from "./Counter";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <MyHeader />
             <MyMain />
             <MyFooter />
+            <Counter />
         </React.Fragment>
     );
 }
