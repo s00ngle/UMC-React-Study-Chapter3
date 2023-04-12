@@ -4,10 +4,16 @@ import MyHeader from "./MyHeader";
 import MyMain from "./MyMain";
 import MyFooter from "./Myfooter";
 import Counter from "./Counter";
+import PhoneForm from "./PhoneForm";
 
 function App() {
+    const handleCreate = (data) => {
+        console.log(data);
+    };
+
     return (
         <React.Fragment>
+            <PhoneForm onCreate={handleCreate} />
             <MyHeader />
             <MyMain />
             <MyFooter />
