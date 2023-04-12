@@ -13,11 +13,11 @@ function App() {
 
     return (
         <React.Fragment>
-            <PhoneForm onCreate={handleCreate} />
             <MyHeader />
             <MyMain />
             <MyFooter />
             <Counter />
+            <PhoneForm onCreate={handleCreate} />
         </React.Fragment>
     );
 }
